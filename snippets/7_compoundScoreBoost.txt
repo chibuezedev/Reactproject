@@ -1,0 +1,22 @@
+{
+  compound:{
+    should:[{
+      phrase: {
+        query: searchTerm,
+        path: ['plot', 'fullplot'],
+        slop:0
+       }
+      },
+      {
+        phrase: {
+          query: searchTerm,
+          path: 'title',
+          slop:0
+        }
+      }
+    ]
+  },
+  highlight:{path:"fullplot"}
+}
+
+// score: {boost:{value:30}}

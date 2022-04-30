@@ -1,0 +1,46 @@
+body {
+  background-color: #061621;
+  color: white;
+  padding: 10px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 200;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#filter {
+  border: 2px solid green;
+  max-width: 100%;
+
+  z-index: 500;
+  max-height: auto;
+  height: auto;
+  overflow: scroll;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+button {
+  border-radius: 6px;
+  background: #009900;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 4px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #006600;
+  transition: 0.7s;
+}
+
+#code-block {
+  background-color: rgb(88, 48, 128);
+  color: white;
+  text-align: center;
+}
